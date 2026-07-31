@@ -15,3 +15,13 @@ menuBtn.addEventListener("click", () => {
     }
 
 });
+
+const navLinks = document.querySelectorAll("nav ul a");
+
+navLinks.forEach(link => {
+    link.addEventListener("click", () => {
+        navMenu.classList.remove("show");
+        menuIcon.classList.remove("fa-xmark");
+        menuIcon.classList.add("fa-bars");
+    });
+});
