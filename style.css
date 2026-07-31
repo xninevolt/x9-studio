@@ -384,6 +384,10 @@ nav ul {
 
 }
 
+   nav ul.show {
+    display: flex;
+}
+
     .hero h2 {
         font-size: 2.7rem;
     }
