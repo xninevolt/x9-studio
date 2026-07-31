@@ -95,7 +95,7 @@ nav a:hover {
     color: var(--primary);
 }
 
-nav a:active {
+nav a.active {
     color: var(--primary);
 }
 
